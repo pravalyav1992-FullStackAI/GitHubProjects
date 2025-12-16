@@ -1,4 +1,4 @@
 def fact(n):
     return 1 if n <= 1 else n * fact(n-1)
 factofnumber = int(input('Enter the number'))
-print(fact(factofnumber))
+print("Factorial of number is : ", fact(factofnumber))
